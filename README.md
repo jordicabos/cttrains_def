@@ -20,8 +20,11 @@ apartats, s’han utilitzat els elements adequats per representar la informació
 
 Explica cóm ha fet (alguna tècnica) per a que la seva web
 s’adapti a diferents dispositius. Resolució de les imatges, etc
+
 # 5 Cartografia. 
 
 Cóm s’han integrat i elaborat els mapes que apareixen a la web.
 
-# 6 Dificultats/millores. Reflexiona proactivament sobre el producte elaborat.
+# 6 Dificultats/millores. 
+
+Reflexiona proactivament sobre el producte elaborat.
