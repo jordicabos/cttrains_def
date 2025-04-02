@@ -5,6 +5,33 @@
 Explica l’objectiu de la web i la motivació per fer-la. Vinculació
 amb Geografia.
 
+## 🎯 Objectiu de la Web
+
+L’objectiu principal d’aquesta web és **facilitar als usuaris del ferrocarril del Camp de Tarragona** l’accés a la informació clau sobre el servei ferroviari.  
+Aquest projecte neix de la constatació que, en els darrers anys, **fer servir el tren s’ha convertit en una autèntica odissea**, degut a:
+
+- 🚧 Obres constants  
+- 💸 Manca d’inversió  
+- 🗺️ Mala planificació  
+- 🚦 Saturació del servei  
+- ❌ Poca transparència i informació dispersa
+
+Tot i que aquesta web **no pot solucionar directament aquests problemes estructurals**, sí que pretén:
+
+> 🔎 **Centralitzar en un únic lloc tota la informació rellevant** sobre el ferrocarril al Camp de Tarragona, oferint una visió més completa i accessible al ciutadà.
+
+### 📌 Punt fort: el Mapa Interactiu
+
+El component més destacat de la web és el **mapa interactiu**, que permet:
+
+- 📍 **Fer clic sobre una estació** per veure:
+  - Serveis disponibles (taquilles, lavabos, aparcament, accessibilitat…)
+  - Horaris de les línies que hi passen
+- 🚉 **Explorar la xarxa ferroviària d’una manera intuïtiva i visual**
+
+Aquest mapa vol ser una eina pràctica i clara per a qualsevol usuari, ja sigui habitual o esporàdic.
+
+
 # 2 Dades/continguts. 
 
 D’on s’han tret les dades, text, fotos, etc
