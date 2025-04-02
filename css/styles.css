@@ -406,3 +406,19 @@ footer {
 main {
     padding: 30px;
 }
+
+.logo-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: inherit;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.logo-btn:hover {
+    text-decoration: underline;
+    color: #ffd700;
+}
