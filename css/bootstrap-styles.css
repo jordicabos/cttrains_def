@@ -1,0 +1,46 @@
+/* Fons general per a la portada */
+body.index {
+    background: url('../images/camptarragona.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #000; /* Per si no carrega la imatge */
+}
+
+/* Botó scroll top */
+#scrollTopBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 100;
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+}
+
+#scrollTopBtn:hover {
+    background-color: #ff6600;
+}
+
+/* Personalització navbar */
+.navbar {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* Petites millores */
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
