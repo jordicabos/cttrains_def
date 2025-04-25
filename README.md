@@ -111,7 +111,28 @@ També s’ha tingut cura en l’ús de les imatges per garantir una càrrega r�
 
 # 5 Cartografia. 
 
-Cóm s’han integrat i elaborat els mapes que apareixen a la web.
+## 🗺️ Integració de la cartografia ferroviària a la web CTTrain
+
+S'ha elaborat i integrat un **mapa interactiu** de la xarxa ferroviària del Camp de Tarragona dins la web del projecte **CTTrain**, utilitzant **QGIS** i el plugin **qgis2web**.
+
+### 🔧 Eines utilitzades
+- **QGIS** per preparar les dades geogràfiques.
+- **qgis2web** per exportar el mapa a format web (Leaflet).
+- **HTML5 + Bootstrap** per integrar-lo dins de la pàgina `mapa.html`.
+
+### 📍 Contingut del mapa
+Per a cada estació de tren inclosa al projecte, s'ha afegit:
+
+- **Imatge representativa**: mostrada al popup mitjançant una URL externa (`<img src="...">`).
+- **Informació detallada**:
+  - Disponibilitat de **venda de bitllets**
+  - Existència de **lavabos**
+  - Presència de **zona de pàrquing**
+- **Accés directe a l'horari** de les línies de tren que passen per l'estació, amb un enllaç a un **fitxer PDF** allotjat dins el projecte web.
+
+### 🧭 Integració web
+- El mapa es carrega dins un `<iframe>` a la pàgina [`mapa.html`](mapa.html), apuntant al fitxer `maps/index.html` generat per `qgis2web`.
+- Els horaris es troben a la carpeta `resources/horaris/`, i s'hi accedeix mitjançant rutes relatives dins del popup.
 
 
 # 6 Dificultats/millores. 
